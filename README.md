@@ -42,8 +42,8 @@ The notebook requires the following datasets to run, which should be placed in t
 ```bash
 jupyter notebook
 ```
-Open the `Mtb_leaderless_efficiency.ipynb` Notebook file.<br><br>
+Open the `leaderless_efficiency.ipynb` Notebook file.<br><br>
 **Navigate to the github repository:**<br>
 ```bash
-cd leaderless-translation-analysis
+cd leaderlessTranslation
 ```
