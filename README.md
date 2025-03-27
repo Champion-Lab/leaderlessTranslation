@@ -29,12 +29,13 @@ git clone https://github.com/your-repository/leaderless-translation-analysis.git
 ```
 ### View datasets
 The notebook requires the following datasets to run. The `inputs` folder within the git repository contains sample data specific to *M. tuberculosis*.
-- FASTA reference sequence (Mtb_FASTA)
-- Table containing coordinate/strand of all known TSSs (Mtb_TSS)
-- Annotated genes: start base, end base, strand & name (Mtb_AnnotatedGenes)
-- Ribo-seq data: base values and corresponding ribosomal intensity (Mtb_Ribosome footprint)
-- RNA-seq data: base values and corresponding RNA intensity (Mtb_RNA-seq)
-- Ribo-RET data: base values and corresponding ribosomal intensity at initiation site (Mtb_Ribo-RET footprint)
+- Genome reference sequence (genome_FASTA, .fasta)
+- Table containing coordinate/strand of all known TSSs (TSS, .bed)
+- Annotated genes: start base, end base, strand & name (AnnotatedGenes, .bed)
+- Ribo-seq data: base values and corresponding ribosomal intensity (Ribosome footprint, .bedgraph)
+- RNA-seq data: base values and corresponding RNA intensity (RNA-seq, .bedgraph)
+- Ribo-RET data: base values and corresponding ribosomal intensity at initiation site (Ribo-RET footprint, .bedgraph)
+- Protein reference sequence (protein_FASTA, .fasta)
 
 ### Run the notebook
 **Start Jupyter Notebook by running:**
