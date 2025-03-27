@@ -26,7 +26,7 @@ pip install numpy pandas matplotlib seaborn biopython
 - Ribo-seq data: base values and corresponding ribosomal intensity (.txt, .bed, .bedgraph)
 - RNA-seq data: base values and corresponding RNA intensity (.txt, .bed, .bedgraph)
 
-### Setup
+## Setup
 Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/your-repository/leaderless-translation-analysis.git
