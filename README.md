@@ -43,12 +43,7 @@ The notebook requires the following datasets to run. The `Mtb_inputs` folder wit
 jupyter notebook
 ```
 Open the `Mtb_leaderless_efficiency.ipynb` Notebook file.<br><br>
-**Navigate to the data directory:**<br>
-Using the terminal:
+**Navigate to the github repository:**<br>
 ```bash
-cd leaderless-translation-analysis/Mtb_inputs
-```
-Using a Jupyter Notebook magic command:
-```Python
-%cd 'leaderless-translation-analysis/Mtb_inputs'
+cd leaderless-translation-analysis/
 ```
