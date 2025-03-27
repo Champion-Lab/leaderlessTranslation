@@ -11,27 +11,42 @@ Certain bacterial species use regulatory mechanisms to evade the immune system a
 ## Installation
 ### Install Dependencies
 Ensure you have the following dependencies installed:
+- Jupyter Notebook
 - NumPy
 - Pandas
 - Matplotlib
 - Seaborn
 - Biopython
 ```bash
-pip install numpy pandas matplotlib seaborn biopython
+pip install notebook numpy pandas matplotlib seaborn biopython
 ```
-### Import datasets
-- FASTA reference sequence (.fasta)
-- Base values for each identified TSS, positive and negative strands (.txt, .bed, .bedgraph)
-- Annotated genes: start base, end base, strand & name (.txt, .bed, .bedgraph)
-- Ribo-seq data: base values and corresponding ribosomal intensity (.txt, .bed, .bedgraph)
-- RNA-seq data: base values and corresponding RNA intensity (.txt, .bed, .bedgraph)
+*To avoid dependency conflicts, it is recommended to create and activate a virtual environment.*
 
 ## Setup
-Clone the repository and navigate to the project directory:
+Clone the repository:
 ```bash
 git clone https://github.com/your-repository/leaderless-translation-analysis.git
+```
+### View datasets
+The notebook requires the following datasets to run. The `data` folder within the git repository contains sample data specific to *M. tuberculosis*.
+- FASTA reference sequence (Mtb_FASTA)
+- Table containing coordinate/strand of all known TSSs (Mtb_TSS)
+- Annotated genes: start base, end base, strand & name (Mtb_AnnotatedGenes)
+- Ribo-seq data: base values and corresponding ribosomal intensity (Mtb_Ribosome footprint)
+- RNA-seq data: base values and corresponding RNA intensity (Mtb_RNA-seq)
+- Ribo-RET data: base values and corresponding ribosomal intensity at initiation site (Mtb_Ribo-RET footprint)
+
+### Run the notebook
+**Start Jupyter Notebook by running:**
+```bash
+jupyter notebook
+```
+**Navigate to the data directory:**<br>
+Using the terminal:
+```bash
 cd leaderless-translation-analysis
 ```
-
-
-
+Using a Jupyter Notebook magic command:
+```Python
+%cd leaderless-translation-analysis
+```
