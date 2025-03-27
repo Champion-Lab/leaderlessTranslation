@@ -28,7 +28,7 @@ Clone the repository:
 git clone https://github.com/your-repository/leaderless-translation-analysis.git
 ```
 ### View datasets
-The notebook requires the following datasets to run. The `Mtb_inputs` folder within the git repository contains sample data specific to *M. tuberculosis*.
+The notebook requires the following datasets to run. The `Mtb_inputs` folder within the git repository contains sample data specific to *M. tuberculosis*. The output files will be placed in the provided folders `data`, `plots`, and `fastas` and update each time the notebook is re-run.
 - Genome reference sequence (genome_FASTA, .fasta)
 - Table containing coordinate/strand of all known TSSs (TSS, .bed)
 - Annotated genes: start base, end base, strand & name (AnnotatedGenes, .bed)
