@@ -9,16 +9,29 @@ Certain bacterial species use regulatory mechanisms to evade the immune system a
 - Identification of high-efficiency leaderless transcripts, contributing to the understanding of non-canonical translation mechanisms in bacteria.
 
 ## Installation
-### Prerequisites
+### Install Dependencies
 Ensure you have the following dependencies installed:
-- Python 3.x
 - NumPy
 - Pandas
-- Biopython
 - Matplotlib
+- Seaborn
+- Biopython
+```bash
+pip install numpy pandas matplotlib seaborn biopython
+```
+### Import datasets
+- FASTA reference sequence (.fasta)
+- Base values for each identified TSS, positive and negative strands (.txt, .bed, .bedgraph)
+- Annotated genes: start base, end base, strand & name (.txt, .bed, .bedgraph)
+- Ribo-seq data: base values and corresponding ribosomal intensity (.txt, .bed, .bedgraph)
+- RNA-seq data: base values and corresponding RNA intensity (.txt, .bed, .bedgraph)
 
 ### Setup
 Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/your-repository/leaderless-translation-analysis.git
 cd leaderless-translation-analysis
+```
+
+
+
