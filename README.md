@@ -50,5 +50,5 @@ cd leaderless-translation-analysis/Mtb_inputs
 ```
 Using a Jupyter Notebook magic command:
 ```Python
-%cd leaderless-translation-analysis/Mtb_inputs
+%cd 'leaderless-translation-analysis/Mtb_inputs'
 ```
