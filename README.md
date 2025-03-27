@@ -28,7 +28,7 @@ Clone the repository:
 git clone https://github.com/your-repository/leaderless-translation-analysis.git
 ```
 ### View datasets
-The notebook requires the following datasets to run. The `data` folder within the git repository contains sample data specific to *M. tuberculosis*.
+The notebook requires the following datasets to run. The `inputs` folder within the git repository contains sample data specific to *M. tuberculosis*.
 - FASTA reference sequence (Mtb_FASTA)
 - Table containing coordinate/strand of all known TSSs (Mtb_TSS)
 - Annotated genes: start base, end base, strand & name (Mtb_AnnotatedGenes)
@@ -41,12 +41,13 @@ The notebook requires the following datasets to run. The `data` folder within th
 ```bash
 jupyter notebook
 ```
+Open the `Mtb_leaderless_efficiency.ipynb` Notebook file.<br><br>
 **Navigate to the data directory:**<br>
 Using the terminal:
 ```bash
-cd leaderless-translation-analysis
+cd leaderless-translation-analysis/inputs
 ```
 Using a Jupyter Notebook magic command:
 ```Python
-%cd leaderless-translation-analysis
+%cd leaderless-translation-analysis/inputs
 ```
