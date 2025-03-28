@@ -23,10 +23,8 @@ pip install notebook numpy pandas matplotlib seaborn biopython
 *To avoid dependency conflicts, it is recommended to create and activate a virtual environment.*
 
 ## Setup
-Clone the repository:
-```bash
-git clone https://github.com/your-repository/leaderless-translation-analysis.git
-```
+Clone the repository
+
 ### View datasets
 The notebook requires the following datasets to run, which should be placed in the provided `inputs` folder within the repository. Sample data specific to *M. tuberculosis* can be accessed via the `Mtb_inputs` folder in the Data drive (`DATA/Anna/leaderlessTranslation/Mtb_inputs`). Output files will be exported to the provided folders `data`, `plots`, and `fastas` and update each time the notebook is re-run.
 - Genome reference sequence (genome_FASTA, .fasta)
