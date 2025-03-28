@@ -26,6 +26,8 @@ pip install notebook numpy pandas matplotlib seaborn biopython
 ### Clone the repository
 ```bash
 git clone https://github.com/Champion-Lab/leaderlessTranslation.git
+```
+```bash
 cd leaderlessTranslation
 ```
 
