@@ -26,6 +26,7 @@ pip install notebook numpy pandas matplotlib seaborn biopython
 ### Clone the repository
 ```bash
 git clone https://github.com/Champion-Lab/leaderlessTranslation.git
+cd leaderlessTranslation
 ```
 
 ### Input the data
@@ -44,7 +45,3 @@ The notebook requires the following datasets to run, which should be placed in t
 jupyter notebook
 ```
 Open the `leaderless_efficiency.ipynb` Notebook file.<br><br>
-**Navigate to the github repository:**<br>
-```bash
-cd leaderlessTranslation
-```
